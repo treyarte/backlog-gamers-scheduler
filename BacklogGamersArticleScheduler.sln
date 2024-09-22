@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogGamersArticleScheduler", "BacklogGamersArticleScheduler.csproj", "{16793E54-5BC4-4199-BC2F-27B629C21EEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "backlog-gamers-api", "..\..\..\Documents\Developer\backlog-gamers\backlog-gamers-api\backlog-gamers-api.csproj", "{51868037-D60D-4C8A-9ADC-4BBADC7B70A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16793E54-5BC4-4199-BC2F-27B629C21EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16793E54-5BC4-4199-BC2F-27B629C21EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16793E54-5BC4-4199-BC2F-27B629C21EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16793E54-5BC4-4199-BC2F-27B629C21EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51868037-D60D-4C8A-9ADC-4BBADC7B70A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51868037-D60D-4C8A-9ADC-4BBADC7B70A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51868037-D60D-4C8A-9ADC-4BBADC7B70A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51868037-D60D-4C8A-9ADC-4BBADC7B70A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99CC14B2-1380-429F-A3FC-E9494CEC47F2}
+	EndGlobalSection
+EndGlobal
