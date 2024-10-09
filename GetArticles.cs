@@ -22,7 +22,7 @@ namespace BacklogGamersArticleScheduler
             // Test
             int articlesCreated = await GetAndInsertArticles(log);
 
-            log.LogInformation("Articles created: ${articlesCreated}");
+            log.LogInformation($"Articles created: {articlesCreated}");
         }
 
         private async Task<int> GetAndInsertArticles(ILogger log)
