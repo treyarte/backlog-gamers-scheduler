@@ -8,7 +8,9 @@
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.4.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Documents\Developer\backlog-gamers\backlog-gamers-api\backlog-gamers-api.csproj" />
+    <ProjectReference Include="..\..\..\Documents\Developer\backlog-gamers\backlog-gamers-api\backlog-gamers-api.csproj">
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
